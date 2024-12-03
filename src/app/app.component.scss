@@ -1,11 +1,25 @@
-button {
-    background-color: #fdfdff30;
-    color: #ffffff;
-    border-color: #ece2fc;
+#container {
+    display: flex;
+    
+
+}
+
+.item{
+    
+    
+    
+    color: antiquewhite;
+    justify-content:space-around;
+    background-color: #f3f3f30e;
+    padding: 10px;
+    border-radius: 5px;
     border-width: 4px;
-    border-radius: 10px;
-    padding: 10px 30px;
-    
-    
+    border-color: white ;
+    flex: 1;
+}
+
+.item:hover {
+    background-color: #0000005e;
+    color: #f782dabe ;
 }
 

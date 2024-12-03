@@ -1,13 +1,17 @@
 <br/>
 <h1>NOTE APP</h1>
-<button [routerLink]="['./add']" > Add</button>
-<button [routerLink]="['./list']" > List</button>
-<button [routerLink]="['./ali']" > Ali</button>
-<button [routerLink]="['./korosh']" > Korosh</button>
-<button [routerLink]="['./samin']" > Samin</button>
-<button [routerLink]="['./reza']" > Reza</button>
-<button [routerLink]="['./hasan']" > Hasan</button>
+<div id = "container"> 
+    <button [routerLink]="['./add']" class="item"> Add</button>
+    <button [routerLink]="['./list']" class="item"> List</button>
+    <button [routerLink]="['./ali']" class="item"> Ali</button>
+    <button [routerLink]="['./korosh']" class="item"> Korosh</button>
+    <button [routerLink]="['./samin']" class="item"> Samin</button>
+    <button [routerLink]="['./reza']" class="item"> Reza</button>
+    <button [routerLink]="['./hasan']" class="item"> Hasan</button>
+
+</div>
+
 <hr/>
 
 
-<router-outlet/>
+<router-outlet />
